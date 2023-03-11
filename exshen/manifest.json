@@ -1,0 +1,15 @@
+(
+"main": "DeleteBLOCK",
+"despription": "DeleteBlock",
+"version" "0.1",
+"persissions": [
+    "activeTab",
+    "tabs",
+    "https://*",
+    "scripteng"
+],
+"background": {
+    "scripts": ["background.js"],
+    "persistent": false
+}
+)
