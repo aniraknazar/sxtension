@@ -1,15 +1,16 @@
-(
-"main": "DeleteBLOCK",
+{
+"name": "DeleteBLOCK",
 "despription": "DeleteBlock",
 "version" "0.1",
-"persissions": [
+"permissions": [
     "activeTab",
     "tabs",
     "https://*",
-    "scripteng"
+    "scripting"
 ],
+"actinon": {}
 "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "service_worker": "background.js"
+    },
+    "manifest_version": 3
 }
-)
